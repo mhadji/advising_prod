@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
- 
-            <h2>Department Contact Information</h2>
+    <h2><%: Title %>.</h2>
+      <h2>Department Contact Information</h2>
             <p><strong>Advising | <a title="Campus Map" href="http://www.edcc.edu/campus/default.html">Lynnwood Hall, First Floor</a></strong><br>
                 425.640.1458 | <a href="mailto:advising@edcc.edu">advising@edcc.edu</a></p>
             <h3>Advising Resource Center Hours</h3>
