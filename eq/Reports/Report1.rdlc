@@ -318,7 +318,6 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Sum(Fields!Credit.Value)</Value>
-                              <ToolTip>=Fields!University.Value - Fields!ProgramName.Value</ToolTip>
                               <Style>
                                 <FontFamily>Verdana</FontFamily>
                                 <FontSize>9pt</FontSize>
@@ -329,7 +328,7 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Credit</rd:DefaultName>
-                      <ToolTip>=Fields!University.Value - Fields!ProgramName.Value</ToolTip>
+                      <ToolTip>=Fields!University.Value &amp; "-" &amp; Fields!Major.Value</ToolTip>
                       <Style>
                         <Border>
                           <Color>#e5e5e5</Color>
