@@ -9,6 +9,11 @@
         <EntityTypeShape EntityType="edcc_advisingModel.edcc_program" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="edcc_advisingModel.major" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="edcc_advisingModel.University" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="edcc_advisingModel.Transfer_r" Width="1.5" PointX="5" PointY="1.625" />
+        <AssociationConnector Association="edcc_advisingModel.FK_Transfer_r_course" />
+        <AssociationConnector Association="edcc_advisingModel.FK_Transfer_r_edcc_program" />
+        <AssociationConnector Association="edcc_advisingModel.FK_Transfer_r_major" />
+        <AssociationConnector Association="edcc_advisingModel.FK_Transfer_r_University" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

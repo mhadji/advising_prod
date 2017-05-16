@@ -1,0 +1,58 @@
+﻿@model edccAdvisingProject.Models.Transfer_r
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Transfer_r</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Credit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Credit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.course.EdccCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.course.EdccCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.edcc_program.ProgCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.edcc_program.ProgCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.major.Major1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.major.Major1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.University.University1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.University.University1)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TR_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
